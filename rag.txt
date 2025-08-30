@@ -1,0 +1,55 @@
+Mức nâng cao – Advanced RAG
+
+    7. Multi-hop RAG (Reasoning + Retrieval)
+
+            Khi cần suy luận nhiều bước. Ví dụ:
+
+            Câu hỏi: “Doanh thu 2023 tăng bao nhiêu % so với 2022?”
+
+            RAG phải lấy số liệu 2022, số liệu 2023, sau đó tính toán.
+
+            Kỹ thuật: Chain-of-Thought RAG, Graph RAG.
+
+    8. Structured Retrieval (SQL / Graph + RAG)
+
+            Dữ liệu không chỉ là văn bản mà có cơ sở dữ liệu quan hệ (SQL) hoặc knowledge graph.
+
+            RAG sẽ dịch câu hỏi thành query SQL hoặc SPARQL, sau đó đưa kết quả cho LLM.
+
+    9. Memory-augmented RAG
+
+        Lưu lịch sử hội thoại, tóm tắt để làm ngữ cảnh cho các câu hỏi sau.
+
+        Giúp chatbot “ghi nhớ lâu dài”.
+
+    10. Adaptive RAG (retrieval tuning)
+
+        LLM quyết định số chunk cần lấy, chọn loại search (semantic vs keyword).
+
+        Giảm chi phí và tăng độ chính xác.
+
+🔴 RAG tiên tiến – State-of-the-Art
+
+Agentic RAG (LLM as Controller)
+
+LLM không chỉ đọc dữ liệu mà còn biết tự chọn công cụ:
+
+Query DB → gọi API → tổng hợp → suy luận → trả lời.
+
+Ví dụ: Chatbot tài chính vừa lấy dữ liệu báo cáo vừa gọi API giá cổ phiếu hiện tại.
+
+RAG + Fine-tuned models
+
+Thay vì dùng LLM chung (GPT-4, LLaMA), ta fine-tune embedding model hoặc reranker cho domain riêng (y tế, tài chính, pháp luật).
+
+Graph RAG (Knowledge Graph + LLM)
+
+Xây dựng graph từ dữ liệu → tìm subgraph liên quan đến query → đưa vào LLM.
+
+Rất mạnh cho dữ liệu quan hệ phức tạp (nghiên cứu khoa học, bệnh học, pháp luật).
+
+Self-RAG (LLM tự kiểm chứng)
+
+LLM sinh câu trả lời → tự đánh giá độ tin cậy → nếu chưa chắc → truy vấn thêm → refine câu trả lời.
+
+Kiểu “retrieval-then-reflection”.

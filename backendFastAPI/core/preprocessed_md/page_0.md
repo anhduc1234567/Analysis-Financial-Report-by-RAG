@@ -1,0 +1,14 @@
+
+NGÄN HANG THUONG MAI CO PHAN A CHAU
+
+# BÁO CÁO TÁI CHÍNH HQP NHÁT GIỮA NIÊN DQ QU II NĂM 2025
+
+Digitally signed by NGÁN HANG
+
+MST: 0301452948
+
+Location:
+
+Date: 2025.07.24 14:28:28+07'00'
+
+

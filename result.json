@@ -1,0 +1,19 @@
+[
+    [
+        {"faithfulness": 0.6667, "answer_relevancy": 0.8143}, 
+        {"faithfulness": 1.0000, "answer_relevancy": 0.7004}, 
+        {"faithfulness": 1.0000, "answer_relevancy": 0.7938}, 
+        {"faithfulness": 1.0000, "answer_relevancy": 0.2484},
+        {"faithfulness": 0.5000, "answer_relevancy": 0.8259}, 
+        {"faithfulness": 0.8333, "answer_relevancy": 0.6618},
+        {"faithfulness": 0.3333, "answer_relevancy": 0.5439}, 
+        {"faithfulness": 0.3182, "answer_relevancy": 0.2640},
+        {"faithfulness": 0.4444, "answer_relevancy": 0.2659},
+        {"faithfulness": 0.3000, "answer_relevancy": 0.7033},
+        {"faithfulness": 0.3750, "answer_relevancy": 0.5396}, 
+        {"faithfulness": 0.5455, "answer_relevancy": 0.0425}, 
+        {"faithfulness": 0.3333, "answer_relevancy": 0.3861},
+        {"faithfulness": 0.2941, "answer_relevancy": 0.5632}
+        
+    ]
+]
