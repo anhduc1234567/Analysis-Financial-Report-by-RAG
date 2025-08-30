@@ -8,8 +8,8 @@ import json
 from ragas.metrics import faithfulness, answer_relevancy
 import asyncio
 # set OpenAI key
-# os.environ["OPENAI_API_KEY"] = "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"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBpAFCUa0UGLvZh2lTCgz_T0BDsNkN96YU"
+
+os.environ["GOOGLE_API_KEY"] = ""
 
 from ragas.embeddings.base import Embeddings
 from huggingface_hub import InferenceClient
