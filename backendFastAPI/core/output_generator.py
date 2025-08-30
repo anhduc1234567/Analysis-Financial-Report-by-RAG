@@ -5,7 +5,7 @@ import os
 import json
 from receiver import retrieve
 from typing import List
-GOOGLE_API = "AIzaSyD8I_NEiSOc-VSxJpwpafPTiotiarIVMlE" #https://aistudio.google.com/apikey truy cập để lấy API
+GOOGLE_API = "" #https://aistudio.google.com/apikey truy cập để lấy API
 #get user question and similar information -> create a prompt for LLM
 SYSTEM_PROMPT = "Hãy tưởng tượng bạn là một chuyên gia trong lĩnh vực tài chính \
         hãy trả lời chính xác và đưa ra dẫn chứng cho câu hỏi [user_question] [] \
